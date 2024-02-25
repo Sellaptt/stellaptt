@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width: 100%; height: 65px; background-color: black; border-bottom: 1px solid white
+}
+.container-90{
+	width: 89%; margin: auto
+}
+.email ul{
+	padding: 0; margin: 0; list-style: none
+}
+
+.email ul li a{
+	color: white; float: right; text-decoration: none; padding-top: 20px
+}
+.email{
+	float: right; color: white; display: flex
+}
+.email i{
+	padding-top: 22px; padding-right: 5px
+}
+.email:hover{
+	color: hsla(21,83%,65%,1.00)
+}
+.email a:hover{
+	color: hsla(21,83%,65%,1.00)
+}
+.banner{
+	width: 100%; height: 320px; background-color: black; padding-top: 30px
+}
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-cam{
+	color: hsla(21,83%,65%,1.00)
+}
+.logo a{
+	text-decoration: none; color: hsla(21,83%,65%,1.00); font-family: "Lobster", sans-serif;
+  font-weight: 20;
+  font-style: normal; font-size: 40px; 
+}
+.menu-giua ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu-giua ul li a{
+	padding: 10px 0 0 40px; text-decoration: none; color: white; font-size: 15px; font-weight: 600; display: block
+}
+.menu-giua ul li a:hover{
+	color: hsla(21,83%,65%,1.00)
+}
+.menu-giua ul li{
+	position: relative
+}
+.menu-giua .submenu{
+	position: absolute;flex-direction: column; display: none; 
+}
+.menu-giua .submenu ul{
+	padding: 0
+}
+.menu-giua .submenu li a{
+	width: 150px; color: white; padding-bottom: 10px
+}
+
+.menu-giua li:hover .submenu{
+	display:block
+}
+.menu-giua .submenu li a:hover{
+	border-bottom: hsla(21,83%,65%,1.00)
+}
+.menu-giua li:hover .submenu a{
+	border-radius: 5px
+}
+.w-35{
+	float: left; padding: 15px
+}
+.form-control{
+	padding: 8px; margin-bottom: 8px; width: 100%
+}
+.fontsize-20{
+	font-size: 20px
+}
+.pt-40{
+	padding-top: 40px
+}
+.text-den{
+	color: black
+}
+.fontsize-70{
+	font-size: 70px
+}
+.main{
+	width: 100%; height: auto
+}
+.button{
+	text-align: center; margin: 20px
+}
+footer{
+	width: 100%; height: 65px; text-align: center; line-height: 65px; background-color: black; color: white
+}
+footer i{
+	padding: 10px
+}
